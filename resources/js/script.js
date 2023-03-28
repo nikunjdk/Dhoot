@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.js--section-features').waypoint(function (direction) {
+    $('.js--section-about-us').waypoint(function (direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
         } else {
@@ -9,11 +9,11 @@ $(document).ready(function () {
         offset: '60px;'
     });
 
-    $('.js--scroll-to-plans').click(function () {
-        $('html, body').animate({ scrollTop: $('.js--section-plans').offset().top }, 1000);
+    $('.js--scroll-to-completed-projects').click(function () {
+        $('html, body').animate({ scrollTop: $('.js--section-completed-projects').offset().top }, 1000);
     });
     $('.js--scroll-to-start').click(function () {
-        $('html, body').animate({ scrollTop: $('.js--section-features').offset().top }, 1000);
+        $('html, body').animate({ scrollTop: $('.js--section-about-us').offset().top }, 1000);
     });
 
     $(function () {
