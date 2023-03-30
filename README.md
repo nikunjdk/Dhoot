@@ -1,5 +1,4 @@
-# OMNIFOOD
+# Dhoot
 
-## [Omnifood](https://nikunjdk.github.io/Omnifood/)
+## [Dhoot](https://nikunjdk.github.io/Dhoot/)
 
-A static website made for an imaginary company which provides premium food delivery service with the mission to bring affordable and healthy meals to as many people as possible.
